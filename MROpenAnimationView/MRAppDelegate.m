@@ -7,6 +7,7 @@
 //
 
 #import "MRAppDelegate.h"
+#import "MROpenAnimationViewController.h"
 
 @implementation MRAppDelegate
 
@@ -16,6 +17,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    MROpenAnimationViewController *rootViewController = [[MROpenAnimationViewController alloc] init];
+    self.window.rootViewController = rootViewController;
+    
     return YES;
 }
 

@@ -19,6 +19,9 @@
 		0851E77F1951D085003C2612 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0851E7671951D085003C2612 /* UIKit.framework */; };
 		0851E7871951D085003C2612 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0851E7851951D085003C2612 /* InfoPlist.strings */; };
 		0851E7891951D085003C2612 /* MROpenAnimationViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0851E7881951D085003C2612 /* MROpenAnimationViewTests.m */; };
+		0851E7941951D27F003C2612 /* MROpenAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0851E7931951D27F003C2612 /* MROpenAnimationCell.m */; };
+		0851E7971951D3B9003C2612 /* MROpenAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0851E7961951D3B9003C2612 /* MROpenAnimationViewController.m */; };
+		0851E7991951DA25003C2612 /* MROpenAnimationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0851E7981951DA25003C2612 /* MROpenAnimationCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		0851E7841951D085003C2612 /* MROpenAnimationViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MROpenAnimationViewTests-Info.plist"; sourceTree = "<group>"; };
 		0851E7861951D085003C2612 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0851E7881951D085003C2612 /* MROpenAnimationViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MROpenAnimationViewTests.m; sourceTree = "<group>"; };
+		0851E7921951D27F003C2612 /* MROpenAnimationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MROpenAnimationCell.h; sourceTree = "<group>"; };
+		0851E7931951D27F003C2612 /* MROpenAnimationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MROpenAnimationCell.m; sourceTree = "<group>"; };
+		0851E7951951D3B9003C2612 /* MROpenAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MROpenAnimationViewController.h; sourceTree = "<group>"; };
+		0851E7961951D3B9003C2612 /* MROpenAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MROpenAnimationViewController.m; sourceTree = "<group>"; };
+		0851E7981951DA25003C2612 /* MROpenAnimationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MROpenAnimationCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +115,15 @@
 		0851E7691951D085003C2612 /* MROpenAnimationView */ = {
 			isa = PBXGroup;
 			children = (
+				0851E7921951D27F003C2612 /* MROpenAnimationCell.h */,
+				0851E7931951D27F003C2612 /* MROpenAnimationCell.m */,
 				0851E7721951D085003C2612 /* MRAppDelegate.h */,
 				0851E7731951D085003C2612 /* MRAppDelegate.m */,
 				0851E7751951D085003C2612 /* Images.xcassets */,
 				0851E76A1951D085003C2612 /* Supporting Files */,
+				0851E7951951D3B9003C2612 /* MROpenAnimationViewController.h */,
+				0851E7961951D3B9003C2612 /* MROpenAnimationViewController.m */,
+				0851E7981951DA25003C2612 /* MROpenAnimationCell.xib */,
 			);
 			path = MROpenAnimationView;
 			sourceTree = "<group>";
@@ -222,6 +235,7 @@
 			files = (
 				0851E76E1951D085003C2612 /* InfoPlist.strings in Resources */,
 				0851E7761951D085003C2612 /* Images.xcassets in Resources */,
+				0851E7991951DA25003C2612 /* MROpenAnimationCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +256,8 @@
 			files = (
 				0851E7701951D085003C2612 /* main.m in Sources */,
 				0851E7741951D085003C2612 /* MRAppDelegate.m in Sources */,
+				0851E7971951D3B9003C2612 /* MROpenAnimationViewController.m in Sources */,
+				0851E7941951D27F003C2612 /* MROpenAnimationCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
